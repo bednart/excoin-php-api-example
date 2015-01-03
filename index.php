@@ -14,8 +14,8 @@ $apisecret = 'API_SECRET';
 $excoin = new Excoin($url, $apikey, $apisecret);
 
 // get JSON objects
-$nonce = $excoin->getNonceRequest();
-$timestamp = $excoin->getTimestampRequest();
+$nonce = $excoin->getNonceResult();
+$timestamp = $excoin->getTimestampResult();
 
 // print nonce result
 echo '<h1>Excoin API nonce request result:</h1>';
