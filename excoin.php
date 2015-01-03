@@ -16,7 +16,7 @@ class Excoin {
     /**
      * Call Excoin API using nonce.
      **/
-    public function getNonceRequest()
+    public function getNonceResult()
     {  
         // build message
         $nonce = time();
@@ -47,7 +47,7 @@ class Excoin {
     /**
      * Call Excoin API using timestamp.
      */
-    public function getTimestampRequest()
+    public function getTimestampResult()
     {        
         // build url - request will be valid for next 15 minutes (900 seconds)
         $expire = time() + 900;
