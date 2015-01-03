@@ -28,7 +28,7 @@ echo '<br/><br/>';
 // print timestamp result
 echo '<h1>Excoin API timestamp request result:</h1>';
 echo '<pre>';
-print_r($nonce);
+print_r($timestamp);
 echo '</pre>';
 
 ?>
