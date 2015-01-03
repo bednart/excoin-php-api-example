@@ -2,3 +2,5 @@ excoin_api_example
 ==================
 
 Excoin PHP account API authentication examples using nonce and timestamp methods.
+
+1) Download both PHP files (index.php and excoin.php) and place them into one directory.2) Open index.php and replace API_KEY and API_SECRET
